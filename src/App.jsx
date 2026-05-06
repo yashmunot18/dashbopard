@@ -5,6 +5,7 @@ import MonthlyTargets from './pages/MonthlyTargets';
 import RevenueTracking from './pages/RevenueTracking';
 import Leads from './pages/Leads';
 import KanbanBoard from './pages/KanbanBoard';
+import LeadsTimeline from './pages/LeadsTimeline';
 import Profitability from './pages/Profitability';
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/revenue" element={<RevenueTracking />} />
           <Route path="/leads" element={<Leads />} />
           <Route path="/kanban" element={<KanbanBoard />} />
+          <Route path="/timeline" element={<LeadsTimeline />} />
           <Route path="/profitability" element={<Profitability />} />
         </Routes>
       </Layout>

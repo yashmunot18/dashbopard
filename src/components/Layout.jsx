@@ -7,6 +7,7 @@ import {
   KanbanSquare,
   PieChart,
   Activity,
+  CalendarDays,
 } from 'lucide-react';
 
 const NAV = [
@@ -15,6 +16,7 @@ const NAV = [
   { to: '/revenue', icon: TrendingUp, label: 'Revenue Tracking' },
   { to: '/leads', icon: Users, label: 'Leads' },
   { to: '/kanban', icon: KanbanSquare, label: 'Leads Board' },
+  { to: '/timeline', icon: CalendarDays, label: 'Leads Timeline' },
   { to: '/profitability', icon: PieChart, label: 'Profitability' },
 ];
 
